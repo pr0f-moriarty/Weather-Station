@@ -17,8 +17,8 @@ DHT dht(DHTPIN, DHTTYPE);
 float temperature, humidity, pressure, altitude;
 
 /*WiFi Details*/
-const char* ssid = "Accio Internet";  //SSID
-const char* password = "K@u&tuBh2526";  //Password 
+const char* ssid = "ssid";  //SSID
+const char* password = "password";  //Password 
 
 ESP8266WebServer server(80);              
  
